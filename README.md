@@ -9,7 +9,7 @@ A full-stack system monitoring solution combining FastAPI, PostgreSQL, Streamlit
 - **Backend:** FastAPI + PostgreSQL
 - **Frontend:** Streamlit dashboard
 - **Scanner Service:** Host-level process monitor with `psutil`
-- **Deployment:** Docker Compose & Render
+- **Deployment:** Local docker compose 
 
 ## Features
 
@@ -73,3 +73,6 @@ microservice-observability-dashboard/
 ├── docker-compose.yml  # Docker multi-service orchestration
 ├── .gitignore
 └── README.md
+
+## Project status 
+This project is in an actively developing state. Deployment to cloud platforms (e.g., Render, EC2) is planned for future stages.
