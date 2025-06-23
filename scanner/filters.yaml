@@ -1,0 +1,9 @@
+include:
+  - python
+  - streamlit
+  - docker
+  - chrome
+  - code
+  - postgres
+  - uvicorn
+exclude: []

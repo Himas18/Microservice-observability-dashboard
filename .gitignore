@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Virtual Environments
+venv/
+env/
+
+# System files
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+
+# Docker
+*.db
+.env
+
+# Streamlit cache
+.streamlit/
+
+# OS junk
+*.swp
