@@ -38,8 +38,9 @@ In a separate terminal :
 python -m venv venv
 venv\Scripts\activate         # Windows
 source venv/bin/activate      # macOS/Linux
-pip install -r scanner/requirements.txt
-python scanner/pc_scanner.py --loop --verbose
+cd scanner
+pip install -r requirements.txt
+python pc_scanner.py --loop --verbose
 
 💻 Option 2: Without Docker (Manual Setup)
 Useful if you prefer local venv setup or want more granular control.
